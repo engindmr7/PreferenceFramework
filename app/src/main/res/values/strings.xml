@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PreferenceFramework</string>
+    <string name="tercih">Tercihler</string>
+    <string name="ayarlar_menu">Ayarlar</string>
+    <string name="otomatik_guncelle_title">Otomatik Güncelle</string>
+    <string name="finans_birimi_title">Finans Birimi</string>
+    <string name="finans_birimi_summary">Takip Etmek İstediğiniz Finans Birimi</string>
+    <string name="finans_birimi_dialog_title">Finans Birimi Seçin</string>
+    <string name="uyarma_yuzdesi_title">Uyarma Yüzdesi</string>
+    <string name="uyarma_yuzdesi_summary">Yüzde Değişim Oranı</string>
+
+
+
+</resources>

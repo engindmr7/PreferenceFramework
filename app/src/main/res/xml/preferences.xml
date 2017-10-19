@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="settings">
+
+    <CheckBoxPreference
+        android:key="PREF_OTOMATIK_GUNCELLE"
+        android:title="@string/otomatik_guncelle_title"
+        android:defaultValue="true">
+
+    </CheckBoxPreference>
+
+    <ListPreference
+        android:key="PREF_FINANS_BIRIMI"
+        android:title="@string/finans_birimi_title"
+        android:summary="@string/finans_birimi_summary"
+        android:defaultValue="0"
+        android:dialogTitle="@string/finans_birimi_dialog_title"
+        android:entries="@array/finans_birimi"
+        android:entryValues="@array/finans_birimi_values">
+
+    </ListPreference>
+
+    <EditTextPreference
+        android:key="PREF_UYARMA_YUZDESI"
+        android:title="@string/uyarma_yuzdesi_title"
+        android:summary="@string/uyarma_yuzdesi_summary"
+        android:defaultValue="5.0">
+
+    </EditTextPreference>
+</PreferenceScreen>
